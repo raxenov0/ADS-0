@@ -1,5 +1,3 @@
-// Copyright 2021 NNTU-CS
-
 int gcd(int a, int b) {
 		if (a % b == 0)
 			return b;
@@ -9,4 +7,3 @@ int gcd(int a, int b) {
 			return gcd(a % b, b);
 		return gcd(a, b % a);
 	}
-}
